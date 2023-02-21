@@ -23,11 +23,11 @@ footer {
 
 header {
     margin-top: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 20px;
 }
 
-h1 {
-    font-size: 64px;
+h3 {
+    /* font-size: 64px; */
     margin-bottom: 16px;
     margin-top: 80px;
 }

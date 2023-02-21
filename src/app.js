@@ -5,6 +5,7 @@ const geocode=require('./utils/geocode')
 const forecast=require('./utils/forecast')
 
 const app=express();
+const port=process.env.PORT || 3000
 
 // Defining path for express config.
 const publicDirpath=path.join(__dirname,'../public')
@@ -31,8 +32,8 @@ app.get('',(req,res)=>
 app.get('/about',(req,res)=>
 {
     res.render('about',{
-        title:"Vimlesh",
-        createdBy:"Kumar"
+        title:"About this app",
+        createdBy:" Vimlesh Kumar"
     })
 })
 
@@ -41,7 +42,7 @@ app.get('/help',(req,res)=>
     res.render('help',
     {
         title:"Help",
-        createdBy:"This page helps us to manage this app."
+        helptxt:"This page help us to manage this app."
     })
 })
 
@@ -83,7 +84,6 @@ app.get('/help/*',(req,res)=>
 
 app.get('*',(req,res)=>
 {
-    // res.send("Page Not found. Error:404!")
     res.render('404',{
         title:404,
         errorMessage:"Page not found."
@@ -91,10 +91,7 @@ app.get('*',(req,res)=>
 })
 
 
-
-
-
-app.listen(3000,()=>
+app.listen(port,()=>
 {
     console.log("Express is running on port:3000")
 })
