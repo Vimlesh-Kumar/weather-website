@@ -1,0 +1,291 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    margin-top: 80px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.classNameForIMG{
+    width: 250px;
+    height: 300px;
+}
+
+/* input{
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  } */
+
+
+
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+/* ".inherited-styles-for-exported-element" is a generated class for the inherited styles of the exported element, feel free to rename it. */
+
+
+
+  .inherited-styles-for-exported-element {
+    color: #333;
+    font-family: CerebriSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    font-size: 100%;
+  }
+
+  h3 {
+    font-family: CerebriSans-Bold, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    font-weight: 400;
+  }
+
+  .svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+  }
+
+  .button {
+    border-radius: 50px;
+    box-shadow: rgba(0, 12, 32, .04) 0 0 1px 0, rgba(10, 31, 68, .1) 0 3px 4px 0;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+    will-change: transform;
+  }
+
+  .buy-button {
+    background-color: #2cbc63;
+    border-style: none;
+    color: #000;
+  }
+
+  .logo-img {
+    margin-top: -3px;
+    vertical-align: middle;
+  }
+
+  .demo-btn {
+    cursor: pointer;
+    transition: all 200ms;
+  }
+
+  .fixed-header {
+    align-items: center;
+    background-color: #fff;
+    box-shadow: rgba(148, 148, 148, .3) 0 2px 6px;
+    box-sizing: border-box;
+    display: flex;
+    left: 0;
+    max-width: initial;
+    padding: 0 7%;
+    position: fixed;
+    top: 0;
+    transition: all 250ms;
+    width: 100%;
+    z-index: 9;
+  }
+
+  @media screen and (min-width: 768px) {
+    .fixed-header {
+      padding: 0 3%;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .fixed-header {
+      padding: 0 10%;
+    }
+  }
+
+  .fixed-header a {
+    display: initial;
+  }
+
+  .fixed-header del {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    .fixed-header del {
+      display: initial;
+    }
+  }
+
+  .header-buttons-wrapper>a {
+    color: #555;
+    font-family: CerebriSans-Bold, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    margin-right: 1.5em;
+    text-decoration: none;
+  }
+
+  .header-buttons-wrapper div {
+    font-family: CerebriSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  }
+
+  .button:hover {
+    transform: scale(1.05);
+  }
+
+  .demo-btn:hover {
+    background-color: #afe6c3;
+  }
+
+  .fixed-header.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .fixed-header .button {
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 25px;
+  }
+
+  .fixed-header .header-logo-wrapper {
+    align-items: center;
+    display: flex;
+  }
+
+  .fixed-header .logo-img {
+    height: 30px;
+    margin-right: .5em;
+  }
+
+  .fixed-header .header-buttons-wrapper {
+    margin-left: auto;
+    margin-top: -1px;
+  }
+
+  .fixed-header .button {
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    .fixed-header .button {
+      font-size: 15px;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+
+  .svg-inline--fa.fa-w-18 {
+    width: 1.125em;
+  }
+
+  svg:not(:root).svg-inline--fa {
+    overflow: visible;
+  }
+
+  .fixed-header h3.logo {
+    font-size: 20px;
+    margin: 1em 0;
+  }
+
+  .fixed-header .buy-button>:not(svg), .fixed-header a:not([href*=gum]) {
+    display: none;
+  }
+
+  .fixed-header .buy-button>svg {
+    margin-right: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .fixed-header .buy-button>:not(svg),   .fixed-header a:not([href*=gum]) {
+      display: initial;
+    }
+
+    .fixed-header .buy-button>svg {
+      margin-right: .5em;
+    }
+  }
+
+  .header-buttons-wrapper>a:hover {
+    color: #000;
+  }
+
+  .header-buttons-wrapper a:last-child {
+    margin-right: 0;
+  }
+
+  .fixed-header a:last-child .button {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .fixed-header .header-buttons-wrapper a.demo-btn {
+    background-color: initial;
+    background-image: none;
+    display: none;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .fixed-header .header-buttons-wrapper a.demo-btn {
+      display: inline-block;
+    }
+  }
+
+  .fixed-header .header-buttons-wrapper a.demo-btn:hover {
+    transform: none;
+  }
+
